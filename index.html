@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StreetSync — Conectando emprendimientos, impulsando oportunidades</title>
+<meta name="description" content="StreetSync es una plataforma web que apoya, promociona y da visibilidad a emprendimientos mediante herramientas digitales.">
+
+<!-- Tipografías: Unbounded para titulares, Manrope para cuerpo de texto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Ícono de la pestaña del navegador (usa el logo) -->
+<link rel="icon" type="image/jpeg" href="images/logo.jpg">
+<link rel="apple-touch-icon" href="images/logo.jpg">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- =========================================================
+     NAVBAR
+     ========================================================= -->
+<header class="navbar" id="navbar">
+  <div class="wrap nav-inner">
+    <a href="#inicio" class="logo" aria-label="StreetSync — inicio"><img src="images/logo.jpg" alt="StreetSync"></a>
+
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#inicio" class="active">Inicio</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#emprendimientos">Emprendimientos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#contacto" class="btn btn-ghost">Contáctanos</a>
+      <a href="#contacto" class="btn btn-primary">Únete ya</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Menú móvil -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#emprendimientos">Emprendimientos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#contacto" class="btn btn-primary">Únete ya</a>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>
+        <span>Conectando emprendimientos,</span>
+        <span class="text-gradient">impulsando oportunidades.</span>
+      </h1>
+      <p class="lead">
+        StreetSync es una plataforma web que da visibilidad a los emprendimientos y los acerca a las personas
+        que quieren descubrirlos, con herramientas digitales simples y accesibles.
+      </p>
+      <div class="hero-actions">
+        <a href="#emprendimientos" class="btn btn-primary">Explorar emprendimientos</a>
+        <a href="#nosotros" class="btn btn-ghost">Conócenos</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>3</strong><span>Emprendimientos registrados</span></div>
+        <div><strong>98%</strong><span>Satisfacción</span></div>
+        <div><strong>4.8</strong><span>Calificación promedio</span></div>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="core">
+        <img src="images/hero.jpg" alt="" onerror="this.style.display='none'">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f6f1fb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2 L20 7 L20 17 L12 22 L4 17 L4 7 Z"/>
+          <path d="M12 2 L12 22 M4 7 L20 17 M20 7 L4 17"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Desliza</span><div class="line"></div></div>
+</section>
+
+<!-- =========================================================
+     SOBRE NOSOTROS
+     ========================================================= -->
+<section class="section" id="nosotros">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Sobre nosotros</div>
+      <h2>Tecnología para que <span class="text-gradient">tu emprendimiento</span> se haga ver.</h2>
+      <p>
+        StreetSync nace porque muchos emprendimientos tienen dificultades para darse a conocer: faltan recursos
+        tecnológicos, la publicidad es limitada y la presencia en internet es poca. Somos una página web que los
+        apoya y los promociona con herramientas digitales, sin ser una tienda virtual ni un marketplace tradicional.
+      </p>
+    </div>
+
+    <figure class="about-banner reveal">
+      <img src="images/nosotros.jpg" alt="Comunidad de emprendedores de StreetSync" loading="lazy">
+    </figure>
+
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.8"/></svg>
+        </div>
+        <h3>Misión</h3>
+        <p>Brindar una plataforma digital innovadora que permita a los emprendimientos promocionar sus productos y servicios, facilitando la conexión con clientes y fortaleciendo el desarrollo económico y comercial de la comunidad.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3>Visión</h3>
+        <p>Para 2030, ser una plataforma reconocida por impulsar emprendimientos y fomentar una cultura de innovación, colaboración y crecimiento económico sostenible.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7.5-4.6-9.3-9.2C1.5 8.6 3.4 5 6.8 5c2 0 3.5 1.1 5.2 3 1.7-1.9 3.2-3 5.2-3 3.4 0 5.3 3.6 4.1 6.8C19.5 16.4 12 21 12 21z"/></svg>
+        </div>
+        <h3>Valores</h3>
+        <ul class="value-tags">
+          <li>Innovación</li>
+          <li>Responsabilidad</li>
+          <li>Transparencia</li>
+          <li>Creatividad</li>
+          <li>Inclusión</li>
+          <li>Compromiso</li>
+          <li>Colaboración</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     SERVICIOS
+     ========================================================= -->
+<section class="section" id="servicios">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Servicios</div>
+      <h2>Lo que hacemos <span class="text-gradient">por tu marca</span></h2>
+      <p>Herramientas digitales intuitivas y accesibles para que tu emprendimiento se dé a conocer y llegue a más personas.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="num">01</div>
+        <h3>Perfil digital</h3>
+        <p>Un espacio propio dentro de la plataforma donde presentas tu emprendimiento, tus productos o servicios y tu información de contacto.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="num">02</div>
+        <h3>Promoción y visibilidad</h3>
+        <p>Damos a conocer tu proyecto ante una comunidad que busca opciones locales y quiere apoyar el emprendimiento.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="num">03</div>
+        <h3>Conexión con clientes</h3>
+        <p>Facilitamos que las personas interesadas encuentren tu información y se comuniquen contigo de forma directa.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="num">04</div>
+        <h3>Impulso digital</h3>
+        <p>Te acercamos a la tecnología para que compitas mejor, aunque no cuentes con grandes recursos ni experiencia previa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     EMPRENDIMIENTOS
+     ========================================================= -->
+<section class="section" id="emprendimientos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Emprendimientos</div>
+      <h2>Descubre <span class="text-gradient">lo que se mueve</span> en tu ciudad</h2>
+      <p>Los primeros proyectos que ya hacen parte de StreetSync. Conoce sus productos y síguelos en Instagram.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active">Todos</button>
+      <button class="filter-btn">Accesorios</button>
+      <button class="filter-btn">Moda</button>
+    </div>
+
+    <div class="ventures-grid">
+      <article class="venture-card reveal">
+        <div class="venture-thumb">
+          <img src="images/emprendimiento1ejem.jpg" alt="Productos de Hard Caps Store" loading="lazy">
+          <img class="venture-logo" src="images/emprendimiento1.jpg" alt="Logo de Hard Caps Store" loading="lazy">
+        </div>
+        <div class="venture-body">
+          <span class="venture-tag">Accesorios</span>
+          <h3>Hard Caps Store</h3>
+          <p>Tienda virtual creada por un joven tunjano, con la misión de ofrecer accesorios llamativos y complementarios, como gorras para todos los estilos.</p>
+          <a href="https://www.instagram.com/hard_caps_store_/" target="_blank" rel="noopener" class="venture-link">Ver perfil
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="venture-card reveal">
+        <div class="venture-thumb">
+          <img src="images/emprendimiento2ejem.jpg" alt="Camisetas personalizadas de sheiss_store" loading="lazy">
+          <img class="venture-logo" src="images/emprendimiento2.jpg" alt="Logo de sheiss_store" loading="lazy">
+        </div>
+        <div class="venture-body">
+          <span class="venture-tag">Moda</span>
+          <h3>sheiss_store</h3>
+          <p>Tienda de camisetas personalizadas, para quienes quieren llevar un diseño propio y con identidad.</p>
+          <a href="https://www.instagram.com/sheiss_store/" target="_blank" rel="noopener" class="venture-link">Ver perfil
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="venture-card reveal">
+        <div class="venture-thumb">
+          <img src="images/emprendimiento3ejem.jpg" alt="Prendas de cero.off" loading="lazy">
+          <img class="venture-logo" src="images/emprendimiento3.jpg" alt="Logo de cero.off" loading="lazy">
+        </div>
+        <div class="venture-body">
+          <span class="venture-tag">Moda</span>
+          <h3>cero.off</h3>
+          <p>Marca tunjana de personalización y creación de prendas auténticas, con un estilo urbano y gótico para quienes prefieren ir contra la corriente.</p>
+          <a href="https://www.instagram.com/cero.off/" target="_blank" rel="noopener" class="venture-link">Ver perfil
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     ESTADÍSTICAS
+     ========================================================= -->
+<section class="section stats-section">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="value"><span class="counter" data-target="3">0</span></div>
+        <div class="label">Emprendimientos registrados</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="value"><span class="counter" data-target="98">0</span>%</div>
+        <div class="label">Satisfacción</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="value"><span class="counter" data-target="4.8" data-decimals="1">0</span></div>
+        <div class="label">Calificación promedio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTACTO
+     ========================================================= -->
+<section class="section" id="contacto">
+  <div class="wrap contact-inner">
+    <div class="contact-info reveal">
+      <div class="eyebrow">Contacto</div>
+      <h2>Hablemos de tu <span class="text-gradient">próximo paso</span></h2>
+      <p>¿Tienes un emprendimiento o quieres saber más sobre StreetSync? Escríbenos y te respondemos pronto.</p>
+
+      <ul class="contact-list">
+        <li>
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg></span>
+          <a href="https://wa.me/573238028475" target="_blank" rel="noopener">+57 323 802 8475</a>
+        </li>
+        <li>
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+          <a href="https://www.instagram.com/_zepthos_/" target="_blank" rel="noopener">@_zepthos_</a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="field">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre completo" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="venture">Tu emprendimiento <span class="opt">(opcional)</span></label>
+        <input type="text" id="venture" name="venture" placeholder="Nombre de tu emprendimiento">
+      </div>
+      <div class="field">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Cuéntanos sobre tu emprendimiento o tu idea..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Enviar por WhatsApp</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      <p class="form-note">Al enviar, se abrirá WhatsApp con tu mensaje listo para mandar.</p>
+    </form>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo" aria-label="StreetSync — inicio"><img src="images/logo.jpg" alt="StreetSync"></a>
+        <p>Conectando emprendimientos, impulsando oportunidades.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/_zepthos_/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="https://wa.me/573238028475" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/><path d="M8.5 8.5c0 4 3 7 7 7l1-2-3-1-1 1a5 5 0 01-3-3l1-1-1-3-1 1z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#emprendimientos">Emprendimientos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Comunidad</h4>
+        <ul>
+          <li><a href="#contacto">Registrar emprendimiento</a></li>
+          <li><a href="#nosotros">Misión y visión</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/573238028475" target="_blank" rel="noopener">+57 323 802 8475</a></li>
+          <li><a href="https://www.instagram.com/_zepthos_/" target="_blank" rel="noopener">@_zepthos_</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> StreetSync. Todos los derechos reservados.</span>
+      <span>Creado por Juan Esteban Ramos, Nicolás Franco y Fabián Barrero</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
